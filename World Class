@@ -1,0 +1,30 @@
+
+package ant_game;
+import java.awt.Point;
+import java.util.ArrayList;
+
+
+public class World {
+    char[][] pos;
+    Ant[][] antAt;
+    Ant[] ant;
+    Ma
+    int dir;
+    enum left_or_right{Left, Right}
+    enum sense_dir{Here, Ahead, LeftAhead, RightAhead}
+    
+    public Point adjacent_cell(Point p, int d){
+        Point adj = null;
+        return adj;
+    }
+    
+    public int turn(String lr, int d){
+        int dir = 0;
+        return dir;
+    }
+    
+    public Point sense_cell(Point p, int d, String sd){
+        Point sense = null;
+        return sense;
+    }
+}
